@@ -86,6 +86,7 @@ CIRCexplorer2 annotate \
 -r ~/genome/hg38/gencode.v47.annotation.txt \
 -g ~/genome/hg38/GRCh38.primary_assembly.genome.fa \
 -b ~/project/circexplorer_out/back_spliced_junction.bed
+> circexplorer_out/circularRNA_known.txt
 
 # ---------- 13. Done ----------
 echo "circRNA pipeline completed successfully!"
